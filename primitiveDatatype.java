@@ -45,6 +45,10 @@ public class primitiveDatatype {
         System.err.println("char value is: "+c1);
         System.err.println("char value is: "+c2);
 
-
+//boolean takes 1 byte of memory and its range is from true to false
+        boolean bool1=true;
+        boolean bool2=false;
+        System.err.println("boolean value is: "+bool1);
+        System.err.println("boolean value is: "+bool2);
     } 
 }
