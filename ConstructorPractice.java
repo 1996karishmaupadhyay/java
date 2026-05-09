@@ -16,9 +16,11 @@ System.out.println(s3.name + " " + s3.age);
 class Student{
     String name ;
     int age;
+    int rollno;
     Student(){
         name="unknown";
-        age=0;  
+        age=0;
+        rollno=0;
         System.out.println("default constructor is called");
     }
     Student(String name){
