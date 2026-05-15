@@ -7,6 +7,7 @@ public class Maps {
       HashMap <String,String> mapp2= new HashMap<>();
 
 mapp.put(1,"Karishma");
+
 mapp.put(2, "naina");
 
 mapp.put(2, "naina");
