@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
 import java.util.List;
+import java.util.HashSet;
 public class collections {
     public static void main(String[] args) {
        ArrayList<Integer> arr1= new ArrayList<>();
@@ -36,5 +37,10 @@ public class collections {
        while (iterator.hasNext()) {
         System.out.println("el:" + iterator.next());
        }
+       HashSet<Integer> set1= new HashSet<>();
+       set1.add(12);
+       set1.add(24);
+       set1.add(36);
+       System.out.println(set1);
     }
 }
