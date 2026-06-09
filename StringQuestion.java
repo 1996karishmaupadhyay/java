@@ -6,7 +6,7 @@ public class StringQuestion {
         ans=ans+str.charAt(i);
         }
         System.out.println(ans);
-    }
+    }               
     static void lengthofLastWord(String str){
 String[] arr=str.split(" ");
 System.out.println(Arrays.toString(arr)); 
