@@ -10,5 +10,9 @@ public class Inputs {
         BufferedReader br=new BufferedReader(isr);//only read string
         String name = br.readLine();
         System.out.println(name);
+        Scanner sc=new Scanner(System.in);
+        int z=sc.nextLine();
+        System.out.println(z);
+
     }
 }
